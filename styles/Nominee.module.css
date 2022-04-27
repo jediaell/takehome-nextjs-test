@@ -1,0 +1,59 @@
+.pageNominee {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    background-color: #CFE2F3;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.pageNominee:hover, .active{
+    background-color: #009B86;
+    color: #ccc;
+}
+
+.pageNominee p {
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.nomineePhoto {
+    margin-top: auto;
+}
+
+.nomineePhoto img{
+    max-height: 350px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.nomineeButton {
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 30px;
+    width: max-content;
+    color: white;
+    font-size: 24px;
+    background: #999;
+}
+.nomineeButton:hover{
+    background: #34AC9C;
+    color: #ccc;
+}
+
+@media (max-width: 991px) {
+    .pageNominee {
+        width: 48%;
+    }
+}
+@media (max-width: 767px) {
+    .pageNominee {
+        width: 100%;
+    }
+}

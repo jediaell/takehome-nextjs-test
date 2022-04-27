@@ -1,0 +1,48 @@
+.pageCategory h3 {
+    background: #666;
+    padding: 10px 20px;
+}
+
+.categoryContent{
+    display: flex;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+.submitBtn {
+    display: flex;
+    margin-top: auto;
+    padding: 20px 40px;
+    font-size: 32px;
+    width: 430px;
+    transform: translateX(90px);
+    margin-bottom: 20px;
+    border-radius: 7px;
+    background: #009B86;
+    color: white;
+    cursor: pointer;
+}
+.submitBtn:hover{
+    background: #34AC9C;
+    color: #ccc;
+}
+
+@media (max-width: 1439px) {
+    .submitBtn {
+        width: 280px;
+        padding: 20px;
+        font-size: 26px;
+        transform: translateX(50px);
+    }
+}
+@media (max-width: 991px) {
+    .submitBtn {
+        width: 48%;
+        transform: none;
+    }
+}
+@media (max-width: 767px) {
+    .submitBtn {
+        width: 100%;
+        padding: 30px;
+    }
+}
