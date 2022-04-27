@@ -1,10 +1,10 @@
-import type { NextPage } from 'next';
+import { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import { Awards } from '../components/awards';
 import styles from '../styles/Home.module.css';
 
-const Home: NextPage = () => {
+function Home() {
   return (
     <div className={styles.container}>
       <Head>
@@ -18,6 +18,6 @@ const Home: NextPage = () => {
       </main>
     </div>
   );
-};
+}
 
 export default Home;
