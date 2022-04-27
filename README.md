@@ -106,3 +106,17 @@ curl -X GET \
 
 > **Good luck and if you have any questions, please reach out to us!**
 
+
+## TEST-INSTRUCTIONS
+
+- install dependencies
+ 
+ ```bash
+ npm i
+ ``` 
+ 
+- run the application
+ 
+ ```bash
+ npm run dev
+
